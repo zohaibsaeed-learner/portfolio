@@ -98,12 +98,6 @@ section {
 .intro-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* matches your right alignment */
-}
-
-.intro-text {
-  display: flex;
-  flex-direction: column;
   align-items: flex-end;
 }
 
@@ -328,6 +322,7 @@ section {
 }
 
 .service-info {
+  display: flex;
   font-size: 4rem;
   flex-direction: column;
   text-align: center;
@@ -382,6 +377,7 @@ section {
 }
 
 .project-card img {
+  width: 100%;
   max-width: 300px;
   border-radius: 2rem;
   object-fit: cover;
@@ -506,6 +502,10 @@ section {
     text-align: center;
   }
 
+  .intro-text {
+    align-items: center;
+  }
+
   .home-img img {
     width: 56vw;
   }
@@ -515,7 +515,7 @@ section {
     text-align: center;
   }
 
-  .about h2 {
+  .about-content h2 {
     text-align: center;
     margin: 2rem 0;
   }
